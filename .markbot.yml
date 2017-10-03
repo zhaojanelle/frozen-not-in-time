@@ -1,0 +1,73 @@
+repo: 'frozen-not-in-time'
+canvasCourse: 'web-dev-3'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+  - css
+  - css-order-modules-grid-type-main
+  - modulifier
+  - modulifier-buttons
+  - gridifier
+  - typografier
+
+html:
+  - path: 'index.html'
+    has:
+      - ['link[href*="Fredoka+One"]', 'The Google Font, `Fredoka One` is missing']
+      - 'img[src*="mint-chip.svg"]'
+      - 'img[src*="cone.svg"]'
+      - 'img[src*="chocolate-chip.svg"]'
+      - 'img[src*="vanilla-fudge.svg"]'
+      - 'img[src*="cherry.svg"]'
+    search:
+      - 'Ice Cream'
+      - 'So sweet, creamy & delicious it’ll literally melt in your mouth!'
+      - 'Enjoy Now!'
+
+css:
+  - path: 'css/main.css'
+    has:
+      - '.btn-ghost'
+      - '.btn-ghost:hover'
+    search:
+      - 'repeating-linear-gradient'
+      - '"Fredoka One", sans-serif'
+      - '@keyframes'
+      - 'opacity'
+      - 'filter'
+      - 'blur'
+      - 'transform'
+      - 'rotate'
+      - 'animation.*forwards'
+      - 'text-shadow'
+      - 'max-width: 19em'
+      - '#b3fbff'
+      - '#c9fcff'
+      - '#d4fdff'
+      - '#990073'
+      - '#c09'
+
+screenshots:
+  - path: 'index.html'
+    sizes: [960, 1440]
+    label: 'Before'
+  - path: 'index.html'
+    sizes: [960, 1440]
+    label: 'After'
+    allowAnimations: true
+    before: |
+      on('img[src*="cherry"]', 'animationend', done);
+
+functionality:
+  - path: 'index.html'
+    label: 'Animations'
+    tests:
+      - |
+        const fudge = $('img[src*="fudge"]');
+
+        on(fudge, 'animationend', (e, ev) => {
+          if (e === true) return fail('The fudge ice cream cone isn’t animated.');
+          pass();
+        });
