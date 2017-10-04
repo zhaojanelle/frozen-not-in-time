@@ -11,7 +11,7 @@ download: "https://assets.learn-the-web.algonquindesign.ca/web-dev-3/frozen-not-
 
 - *Fork this repository.*
 - Export the graphics as SVGs from Adobe Illustrator.
-- Create the introductory banner graphic using `animation`, `@keyframes`, `transform`, `filter` & `opacity`
+- Create the introductory banner graphic (where the pieces animate in 1-by-1) using `animation`, `@keyframes`, `transform`, `filter` & `opacity`
 - Each ice cream cone piece should be a separate `<img>` tag.
 - Before adding any animations position the ice cream cone pieces into the right locations so you know their final coordinates.
 - Use a grid to get the text and the ice cream cone beside each other.
@@ -40,6 +40,7 @@ Visually match the images in the “screenshots” folder and create the interac
 
 - Final screenshots in the “screenshots” folder.
 - [**Watch this video to see how it interacts.**](https://youtu.be/o2FwGlunLnw)
+  *This video shows the browser being refreshed a few times—the components only need to animate in once.*
 
 ---
 
