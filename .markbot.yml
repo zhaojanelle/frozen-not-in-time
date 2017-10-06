@@ -49,6 +49,18 @@ css:
       - '#990073'
       - '#c09'
 
+files:
+  - path: 'images/cherry.svg'
+    smushed: true
+  - path: 'images/chocolate-chip.svg'
+    smushed: true
+  - path: 'images/cone.svg'
+    smushed: true
+  - path: 'images/mint-chip.svg'
+    smushed: true
+  - path: 'images/vanilla-fudge.svg'
+    smushed: true
+
 screenshots:
   - path: 'index.html'
     sizes: [960, 1440]
