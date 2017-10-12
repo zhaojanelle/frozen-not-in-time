@@ -1,0 +1,6 @@
+html {
+}
+
+.banner {
+  background-image: repeating-linear-gradient(145deg, #d4fdff 12px, #d4fdff 24px, #c9fcff 24px, #c9fcff 36px);
+}
