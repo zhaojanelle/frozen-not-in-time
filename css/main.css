@@ -4,15 +4,21 @@ html {
 
 body {
   background-image: repeating-linear-gradient(145deg, #d4fdff 12px, #d4fdff 24px, #c9fcff 24px, #c9fcff 36px);
+  border-top: 10px solid #b3fbff;
+  border-bottom: 10px solid #b3fbff;
 }
 
 h1 {
   color: #990073;
+  transform: rotate(-10deg);
+  transform-origin: left bottom;
 }
 
 .intro-p {
   color: #c09;
   max-width: 19em;
+  transform: rotate(-5deg);
+  transform-origin: left center;
 }
 
 
