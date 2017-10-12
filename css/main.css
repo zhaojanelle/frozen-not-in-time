@@ -2,7 +2,7 @@ html {
   font-family: "Fredoka One", cursive;
 }
 
-.banner {
+body {
   background-image: repeating-linear-gradient(145deg, #d4fdff 12px, #d4fdff 24px, #c9fcff 24px, #c9fcff 36px);
 }
 
@@ -10,9 +10,11 @@ h1 {
   color: #990073;
 }
 
-p {
+.intro-p {
   color: #c09;
+  max-width: 19em;
 }
+
 
 .btn-ghost {
   color: #c09;
