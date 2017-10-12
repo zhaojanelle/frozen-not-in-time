@@ -5,3 +5,21 @@ html {
 .banner {
   background-image: repeating-linear-gradient(145deg, #d4fdff 12px, #d4fdff 24px, #c9fcff 24px, #c9fcff 36px);
 }
+
+h1 {
+  color: #990073;
+}
+
+p {
+  color: #c09;
+}
+
+.btn-ghost {
+  color: #c09;
+  border-color: #990073;
+}
+
+.btn-ghost:hover {
+  color: #c09;
+  border-color: #990073;
+}
