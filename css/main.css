@@ -68,7 +68,7 @@ h1 {
 .cherry {
   z-index: 5;
   bottom: 130%;
-  animation: drop-cherry 350ms 550ms linear forwards;
+  animation: drop-cherry 350ms 1000ms linear forwards;
 }
 
 @keyframes drop-cone {
@@ -118,5 +118,20 @@ h1 {
 
   to {
     bottom: 414px;
+  }
+}
+
+.text-content {
+  opacity: 0;
+  animation: show-text 350ms 800ms linear forwards;
+}
+
+@keyframes show-text {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
