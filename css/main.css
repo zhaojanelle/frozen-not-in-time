@@ -43,32 +43,32 @@ h1 {
 .cone {
   z-index: 2;
   bottom: 130%;
-  animation: drop-cone 350ms linear forwards;
+  animation: drop-cone 250ms linear forwards;
 }
 
 .mint {
   z-index: 1;
   bottom: 130%;
-  animation: drop-mint 350ms 200ms linear forwards;
+  animation: drop-mint 250ms 200ms linear forwards;
 }
 
 .chocolate {
   z-index: 3;
   bottom: 130%;
   left: 10px;
-  animation: drop-chocolate 350ms 350ms linear forwards;
+  animation: drop-chocolate 250ms 400ms linear forwards;
 }
 
 .vanilla {
   z-index: 4;
   bottom: 130%;
-  animation: drop-vanilla 350ms 450ms linear forwards;
+  animation: drop-vanilla 250ms 600ms linear forwards;
 }
 
 .cherry {
   z-index: 5;
   bottom: 130%;
-  animation: drop-cherry 350ms 1000ms linear forwards;
+  animation: drop-cherry 250ms 1000ms linear forwards;
 }
 
 @keyframes drop-cone {
@@ -128,7 +128,7 @@ h1 {
 
 .text-content {
   opacity: 0;
-  animation: show-text 350ms 800ms linear forwards;
+  animation: show-text 250ms 800ms linear forwards;
 }
 
 @keyframes show-text {
