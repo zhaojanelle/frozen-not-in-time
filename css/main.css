@@ -35,6 +35,11 @@ h1 {
   border-color: #990073;
 }
 
+.ice-cream {
+  min-height: 26em;
+  transform: scale(.7);
+}
+
 .cone {
-  transform:
+  bottom: 0;
 }
