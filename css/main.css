@@ -42,38 +42,38 @@ h1 {
 
 .cone {
   z-index: 2;
-  bottom: -77px;
+  bottom: 130%;
   animation: drop-cone 350ms linear forwards;
 }
 
 .mint {
   z-index: 1;
-  bottom: 71px;
+  bottom: 130%;
   animation: drop-mint 350ms 200ms linear forwards;
 }
 
 .chocolate {
   z-index: 3;
-  bottom: 194px;
+  bottom: 130%;
   left: 10px;
   animation: drop-chocolate 350ms 350ms linear forwards;
 }
 
 .vanilla {
   z-index: 4;
-  bottom: 302px;
+  bottom: 130%;
   animation: drop-vanilla 350ms 450ms linear forwards;
 }
 
 .cherry {
   z-index: 5;
-  bottom: 414px;
+  bottom: 130%;
   animation: drop-cherry 350ms 550ms linear forwards;
 }
 
 @keyframes drop-cone {
   from {
-    bottom: 100%;
+    bottom: 130%;
   }
 
   to {
@@ -83,7 +83,7 @@ h1 {
 
 @keyframes drop-mint {
   from {
-    bottom: 100%;
+    bottom: 130%;
   }
 
   to {
@@ -93,7 +93,7 @@ h1 {
 
 @keyframes drop-chocolate {
   from {
-    bottom: 2000px;
+    bottom: 130%;
   }
 
   to {
@@ -103,7 +103,7 @@ h1 {
 
 @keyframes drop-vanilla {
   from {
-    bottom: 2000px;
+    bottom: 130%;
   }
 
   to {
@@ -113,7 +113,7 @@ h1 {
 
 @keyframes drop-cherry {
   from {
-    bottom: 2000px;
+    bottom: 130%;
   }
 
   to {
