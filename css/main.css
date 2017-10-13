@@ -6,7 +6,7 @@ html {
   background-image: repeating-linear-gradient(145deg, #d4fdff 12px, #d4fdff 24px, #c9fcff 24px, #c9fcff 36px);
   border-top: 7px solid #b3fbff;
   border-bottom: 7px solid #b3fbff;
-  min-height: 25em;
+  min-height: 485px;
 }
 
 h1 {
@@ -36,7 +36,7 @@ h1 {
 }
 
 .ice-cream {
-  min-height: 25em;
+  min-height: 485px;
   transform: scale(.7);
 }
 
