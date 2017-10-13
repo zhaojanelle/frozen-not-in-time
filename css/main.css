@@ -6,7 +6,7 @@ html {
   background-image: repeating-linear-gradient(145deg, #d4fdff 12px, #d4fdff 24px, #c9fcff 24px, #c9fcff 36px);
   border-top: 7px solid #b3fbff;
   border-bottom: 7px solid #b3fbff;
-  min-height: 26em;
+  min-height: 25em;
 }
 
 h1 {
@@ -36,32 +36,87 @@ h1 {
 }
 
 .ice-cream {
-  min-height: 26em;
+  min-height: 25em;
   transform: scale(.7);
 }
 
 .cone {
   z-index: 2;
   bottom: -77px;
+  animation: drop-cone 350ms linear forwards;
 }
 
 .mint {
   z-index: 1;
   bottom: 71px;
+  animation: drop-mint 350ms 200ms linear forwards;
 }
 
 .chocolate {
   z-index: 3;
   bottom: 194px;
   left: 10px;
+  animation: drop-chocolate 350ms 350ms linear forwards;
 }
 
 .vanilla {
   z-index: 4;
-  top: -59px;
+  bottom: 302px;
+  animation: drop-vanilla 350ms 450ms linear forwards;
 }
 
 .cherry {
   z-index: 5;
-  top: -171px;
+  bottom: 414px;
+  animation: drop-cherry 350ms 550ms linear forwards;
+}
+
+@keyframes drop-cone {
+  from {
+    bottom: 100%;
+  }
+
+  to {
+    bottom: -77px;
+  }
+}
+
+@keyframes drop-mint {
+  from {
+    bottom: 100%;
+  }
+
+  to {
+    bottom: 71px;
+  }
+}
+
+@keyframes drop-chocolate {
+  from {
+    bottom: 2000px;
+  }
+
+  to {
+    bottom: 194px;
+  }
+}
+
+@keyframes drop-vanilla {
+  from {
+    bottom: 2000px;
+  }
+
+  to {
+    bottom: 302px;
+  }
+}
+
+@keyframes drop-cherry {
+  from {
+    bottom: 2000px;
+  }
+
+  to {
+    bottom: 414px;
+  }
 }
