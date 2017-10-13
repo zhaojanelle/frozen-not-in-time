@@ -41,5 +41,27 @@ h1 {
 }
 
 .cone {
-  bottom: 0;
+  z-index: 2;
+  bottom: -77px;
+}
+
+.mint {
+  z-index: 1;
+  bottom: 71px;
+}
+
+.chocolate {
+  z-index: 3;
+  bottom: 194px;
+  left: 10px;
+}
+
+.vanilla {
+  z-index: 4;
+  top: -59px;
+}
+
+.cherry {
+  z-index: 5;
+  top: -171px;
 }
