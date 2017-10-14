@@ -61,7 +61,7 @@ h1 {
 
 .vanilla {
   z-index: 4;
-  bottom: 130%;
+  bottom: 300%;
   animation: drop-vanilla 250ms 600ms linear forwards;
 }
 
@@ -107,7 +107,7 @@ h1 {
 @keyframes drop-vanilla {
 
   from {
-    bottom: 130%;
+    bottom: 300%;
   }
 
   to {
